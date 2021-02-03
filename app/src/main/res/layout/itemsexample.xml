@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="8dp"
+    android:elevation="7dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10 DEC ,2019"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:id="@+id/date"
+                android:padding="9dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tittle"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:id="@+id/type"
+                android:padding="9dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note"
+                android:layout_below="@+id/type"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:id="@+id/note"
+                android:padding="9dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5000"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:id="@+id/amount"
+                android:padding="9dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
